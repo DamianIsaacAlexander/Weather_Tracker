@@ -1,0 +1,82 @@
+header
+{
+    background-color: rgb(52, 58, 64);
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+#search-input
+{
+    border: solid 1px rgb(233, 233, 233);
+    height: calc(1.5em + .75rem + 2px);
+    vertical-align: bottom;
+    width: 300px;
+}
+.page-container
+{
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+.search-container
+{
+    background-color: rgb(248, 249, 250);
+    height: 100vh;
+}
+.search-block
+{
+    margin-bottom: 15px;
+    margin-left: 25px;
+    margin-top: 15px;
+    padding: 0 !important;
+}
+.main-container
+{
+    background-color: rgb(255, 255, 255);
+    height: 100vh;
+}
+.city-block
+{
+    background-color: rgb(255, 255, 255);
+    border-radius: 4px;
+    border: solid 1px rgb(233, 233, 233);
+    height: 60px;
+    line-height: 50px;
+    margin-left: 25px;
+    padding-left: 25px !important;
+}
+.jumbotron
+{
+    background: transparent !important;
+    border: solid 1px rgb(233, 233, 233);
+    margin-top: 20px;
+}
+.five-day-title
+{
+    margin-left: 20px 
+}
+.forecast-row
+{
+    margin-left: 20px !important;
+    margin-left: 20px !important;
+}
+.forecast-card
+{
+    background-color: rgb(0, 123, 255);
+    border-radius: 4px;
+    height: 200px;
+    margin-right: 20px;
+    padding-top: 10px;
+}
+.forecast-card-date
+{
+    color: white;
+}
+.forecast-card-item
+{
+    color: white;
+    margin-top: 10px;
+}
+.city-uv
+{
+    display:inline;
+}

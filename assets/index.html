@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Weather Dash</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" in
+        tegrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/0390c479d9.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <h1>Weather Dashboard</h1>
+    </header>
+    <main>
+        <div class="row page-container">
+             <!--Left Weather Search Col-->
+            <div class="col-lg-3 search-container">
+
+                <div class="row" id="search-container-row">
+
+                    <div class="col-lg-11 search-block">
+
+                        <h4 class="search-title">Seach for a City:</h4>
+
+                        <form id="search-submit">
+                            <input type="text" id="search-input">
+                            <button class="btn btn-primary" id="search" type="submit"><i
+                                    class="fas fa-search"></i></button>
+                        </form>
+
+                    </div>
+
+                </div>
+
+                <div class="row" id="city-block-container-row">
+
+                </div>
+
+            </div>
+             <!--right Weather Main Col-->
+            <div class="col-lg-9 main-container">
+                <div class="jumbotron">
+                </div>
+                 <!-- 5 Day Weather Forecast-->
+                <h3 class="five-day-title">5-Day Forecast:</h3>
+                <div class="row forecast-row">
+
+                </div>
+            </div>
+        </div>
+        </div>
+    </main>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="weather_tracker.js"></script>
+</body>
+
+</html>

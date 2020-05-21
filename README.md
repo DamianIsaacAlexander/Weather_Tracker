@@ -2,7 +2,7 @@
 
 A simple weather app which displays current weather data for a given city and a 5 day forecast.
 
-![alt text](https://gyazo.com/2d79c9569114b084901ebaea7990e163)
+![Weather Tracker Image](https://i.gyazo.com/2d79c9569114b084901ebaea7990e163.png)
 
 ## Built With
 * Jquery
